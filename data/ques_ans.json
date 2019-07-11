@@ -120,9 +120,9 @@
         "id": "question-one-two",
         "gid" : "two",
         "questions": [
-            "Do you want to know about our projects?"
+            "Do you want to know about our products?"
         ],
-        "answer": "The projects we take are..",
+        "answer": "The products developed by us are..",
         "prompt": "You can also try asking another question"
     },
     {
