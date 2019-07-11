@@ -2,10 +2,10 @@ const Alexa = require('ask-sdk-core');
 const qa = require('./modules/qa.js');
 const groups = require('./data/group_ques.json');
 
-const WelcomeMessage = "Welcome to VoiceQube. We will be happy, answering your questions about VoiceQube";
+const WelcomeMessage = "Welcome to VoiceQube. We will be happy answering your questions about VoiceQube";
 const WelcomeReprompt = "You can ask me questions about VoiceQube";
-const HelpMessage = "You can ask a question. If I know the answer I\'ll tell you.";
-const HelpReprompt = "You can ask a question. If I know the answer I\'ll tell you.";
+const HelpMessage = "You can ask about voiceQube. I'll be happy to address the questions";
+const HelpReprompt = "You can ask about voiceQube. I'll be happy to address the questions";
 const NotAnswerableMessage = "Sorry I\'m unable to answer that. Ask me another question";
 const ErrorMessage = "Sorry, I can\'t understand the command. Please say again.";
 const ErrorReprompt = "Sorry, I can\'t understand the command. Please say again.";
@@ -336,7 +336,6 @@ const yesIntentHandler = {
   },
   async handle(handlerInput) {
     let resolution = handlerInput.requestEnvelope.request.intent.slots.continue.resolutions.resolutionsPerAuthority[0];
-    if (resolution.status.code === "ER_SUCCESS_MATCH") {
       const myAttributesManager = handlerInput.attributesManager;
       var mySessionAttributes = myAttributesManager.getSessionAttributes();
       const id = mySessionAttributes.quesIDTobeAnswered;
@@ -347,14 +346,6 @@ const yesIntentHandler = {
         .speak(speechText)
         .reprompt(speechText)
         .getResponse();
-    }
-    else{
-      let speechText = NotAnswerableMessage;
-      return handlerInput.responseBuilder
-        .speak(speechText)
-        .reprompt(speechText)
-        .getResponse();
-    }
   },
 };
 
