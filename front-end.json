@@ -28,6 +28,8 @@
                         }
                     ],
                     "samples": [
+                        "what does {aboutQuestions}",
+                        "what does {company} {aboutQuestions}",
                         "How is {aboutQuestions} faster",
                         "How is {aboutQuestions} better",
                         "what is meant by {aboutQuestions}",
@@ -381,6 +383,7 @@
                             "name": {
                                 "value": "Products",
                                 "synonyms": [
+                                    "product",
                                     "products developed"
                                 ]
                             }
@@ -390,6 +393,7 @@
                             "name": {
                                 "value": "GyanI",
                                 "synonyms": [
+                                    "gyaani",
                                     "gyanee",
                                     "gyani"
                                 ]
