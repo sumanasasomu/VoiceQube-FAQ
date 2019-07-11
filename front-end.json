@@ -1,0 +1,897 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "voiceqube faq",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AboutIntent",
+                    "slots": [
+                        {
+                            "name": "aboutQuestions",
+                            "type": "aboutQuestionsType"
+                        },
+                        {
+                            "name": "company",
+                            "type": "companyType"
+                        }
+                    ],
+                    "samples": [
+                        "How is {aboutQuestions} faster",
+                        "How is {aboutQuestions} better",
+                        "what is meant by {aboutQuestions}",
+                        "what are {aboutQuestions}",
+                        "what is a {aboutQuestions}",
+                        "let me know about your {aboutQuestions}",
+                        "let me know about {aboutQuestions}",
+                        "tell me about {aboutQuestions}",
+                        "what kind of {aboutQuestions} did you work in ",
+                        "what kind of {aboutQuestions} does {company} work in",
+                        "what kind of {aboutQuestions} does {company} work with",
+                        "what kind of {aboutQuestions} did you work with",
+                        "What {aboutQuestions} have you worked with",
+                        "How is the {aboutQuestions} of {company}",
+                        "what is your {aboutQuestions} like",
+                        "how is your {aboutQuestions}",
+                        "What is {company}  {aboutQuestions} like",
+                        "What {aboutQuestions} do you use",
+                        "What {aboutQuestions} does {company} use",
+                        "What {aboutQuestions} does {company} work with",
+                        "What {aboutQuestions} do you work on",
+                        "What {aboutQuestions} do you work with",
+                        "name some of your {aboutQuestions}",
+                        "name a few {aboutQuestions} of yours",
+                        "what {aboutQuestions} does {company} offer",
+                        "what {aboutQuestions} do you offer",
+                        "what are some of your {aboutQuestions}",
+                        "what are your {aboutQuestions}",
+                        "what kind of {aboutQuestions} do you take on",
+                        "Which kind of {aboutQuestions}  do you take on",
+                        "What kind of {aboutQuestions} does {company} take on",
+                        "which type of {aboutQuestions} does {company} take on",
+                        "What type of {aboutQuestions} does {company} take on",
+                        "what {aboutQuestions} do you provide",
+                        "What are the {aboutQuestions} by {company}",
+                        "what is your company's {aboutQuestions}",
+                        "what is voiceqube's {aboutQuestions}",
+                        "what is your {aboutQuestions}",
+                        "why {aboutQuestions}",
+                        "what is the {aboutQuestions}",
+                        "how is {aboutQuestions}",
+                        "What is {aboutQuestions}",
+                        "{aboutQuestions}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ProductsIntent",
+                    "slots": [
+                        {
+                            "name": "productsQuestions",
+                            "type": "productQuestionsType"
+                        },
+                        {
+                            "name": "company",
+                            "type": "companyType"
+                        }
+                    ],
+                    "samples": [
+                        "Tell me about {productsQuestions} and {productsQuestions}",
+                        "tell me in brief about {productsQuestions}  and {productsQuestions}",
+                        "give me the details of {productsQuestions} and {productsQuestions}",
+                        "give me the details of {productsQuestions}",
+                        "details of {productsQuestions}",
+                        "what are {productsQuestions}",
+                        "what is {productsQuestions}",
+                        "tell me in brief about {productsQuestions} ",
+                        "let me know about {productsQuestions}",
+                        "Tell me about {productsQuestions}",
+                        "name a few {productsQuestions} of {company}",
+                        "name some of your {productsQuestions}",
+                        "what are the {productsQuestions} of {company}",
+                        "what are your {productsQuestions}",
+                        "{productsQuestions}"
+                    ]
+                },
+                {
+                    "name": "ProjectIntent",
+                    "slots": [
+                        {
+                            "name": "projectQuestions",
+                            "type": "projectQuestionsType"
+                        },
+                        {
+                            "name": "company",
+                            "type": "companyType"
+                        }
+                    ],
+                    "samples": [
+                        "what {company} {projectQuestions}",
+                        "what does {company} {projectQuestions}",
+                        "why does {company} {projectQuestions}",
+                        "why did {company} {projectQuestions}",
+                        "what is the {company} {projectQuestions}",
+                        "what is {company} {projectQuestions}",
+                        "what makes your {projectQuestions}",
+                        "what makes {company} {projectQuestions}",
+                        "how reliable is {company} {projectQuestions}",
+                        "why should we {projectQuestions} {company}",
+                        "how does {company} give {projectQuestions}",
+                        "how does {company} assure {projectQuestions}",
+                        "how do {company} assure {projectQuestions}",
+                        "can {company} give {projectQuestions} results",
+                        "can {company} give {projectQuestions}",
+                        "can {company} guarantee {projectQuestions}",
+                        "will {company} guarantee {projectQuestions}",
+                        "who provides {projectQuestions}",
+                        "how is {projectQuestions} provided",
+                        "do {company} provide {projectQuestions}",
+                        "does {company} provide {projectQuestions}",
+                        "name {company} {projectQuestions}",
+                        "what are {company} {projectQuestions}",
+                        "tell me about {company}  {projectQuestions}",
+                        "experience in {projectQuestions}",
+                        "does {company} handle {projectQuestions}",
+                        "how does {company} handle {projectQuestions}",
+                        "how do you handle {projectQuestions}",
+                        "who handles {projectQuestions}",
+                        "how are {projectQuestions} handled",
+                        "who pays for {projectQuestions}",
+                        "how do we get {projectQuestions}",
+                        "what about {projectQuestions}",
+                        "describe my {projectQuestions}",
+                        "describe {projectQuestions}",
+                        "what is my {projectQuestions} as a client",
+                        "what is my {projectQuestions} ",
+                        "to what extent do we have {projectQuestions}",
+                        "to which extent do we have {projectQuestions}",
+                        "what {projectQuestions} do we have",
+                        "will {company} {projectQuestions}",
+                        "is {projectQuestions} possible",
+                        "can {company} come {company}",
+                        "how does {company} {projectQuestions} with clients",
+                        "how do {company} {projectQuestions} with clients",
+                        "how do {company} {projectQuestions}",
+                        "how does {company} {projectQuestions}",
+                        "what is the {projectQuestions}",
+                        "how is {projectQuestions}",
+                        "what is {projectQuestions}",
+                        "how to {projectQuestions}",
+                        "tell me about {projectQuestions}",
+                        "What is your approach to {projectQuestions}",
+                        "What is your approach for {projectQuestions}",
+                        "{projectQuestions}"
+                    ]
+                },
+                {
+                    "name": "SecurityIntent",
+                    "slots": [
+                        {
+                            "name": "securityQuestions",
+                            "type": "securityQuestionsType"
+                        }
+                    ],
+                    "samples": [
+                        "{securityQuestions}"
+                    ]
+                },
+                {
+                    "name": "ContactIntent",
+                    "slots": [
+                        {
+                            "name": "contactQuestions",
+                            "type": "contactQuestionsType"
+                        }
+                    ],
+                    "samples": [
+                        "{contactQuestions}"
+                    ]
+                },
+                {
+                    "name": "RecruitmentIntent",
+                    "slots": [
+                        {
+                            "name": "recruitmentQuestions",
+                            "type": "recruitmentQuestionsType"
+                        }
+                    ],
+                    "samples": [
+                        "{recruitmentQuestions}"
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [
+                        {
+                            "name": "continue",
+                            "type": "yesType"
+                        }
+                    ],
+                    "samples": [
+                        "{continue}"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [
+                        {
+                            "name": "interrupt",
+                            "type": "noType"
+                        }
+                    ],
+                    "samples": [
+                        "{interrupt}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "aboutQuestionsType",
+                    "values": [
+                        {
+                            "id": "question-one",
+                            "name": {
+                                "value": "Tell me about VoiceQube",
+                                "synonyms": [
+                                    "Tell me about your company",
+                                    "What is your company",
+                                    "Let me know about VoiceQube",
+                                    "what is VoiceQube",
+                                    "voiceqube",
+                                    "your company"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-two",
+                            "name": {
+                                "value": "voice user interface",
+                                "synonyms": [
+                                    "VUI",
+                                    "voice user interface faster",
+                                    "voice user interface faster than other technologies",
+                                    "voice user interface developing"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-three",
+                            "name": {
+                                "value": "future of voice technology",
+                                "synonyms": [
+                                    "future of this field"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-four",
+                            "name": {
+                                "value": "add voice to business",
+                                "synonyms": [
+                                    "adding voice to business",
+                                    "add voice",
+                                    "add voice to my company"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-five",
+                            "name": {
+                                "value": "business model",
+                                "synonyms": [
+                                    "profit generation formulae",
+                                    "business foundation",
+                                    "model of business",
+                                    "model of the business"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-six",
+                            "name": {
+                                "value": "services provided",
+                                "synonyms": [
+                                    "services",
+                                    "service",
+                                    "provide services",
+                                    "provide service"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-seven",
+                            "name": {
+                                "value": "projects",
+                                "synonyms": [
+                                    "project type",
+                                    "project",
+                                    "type of projects"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-eight",
+                            "name": {
+                                "value": "capabilities",
+                                "synonyms": [
+                                    "capability"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-nine",
+                            "name": {
+                                "value": "technologies and languages ",
+                                "synonyms": [
+                                    "technology",
+                                    "languages",
+                                    "technologies"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-ten",
+                            "name": {
+                                "value": "Client base",
+                                "synonyms": [
+                                    "clients base"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-eleven",
+                            "name": {
+                                "value": "industries",
+                                "synonyms": [
+                                    "industry",
+                                    "industrial work"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-twelve",
+                            "name": {
+                                "value": "Voice clubs",
+                                "synonyms": [
+                                    "voice Club"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "productQuestionsType",
+                    "values": [
+                        {
+                            "id": "question-one-two",
+                            "name": {
+                                "value": "Products",
+                                "synonyms": [
+                                    "products developed"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-two-two",
+                            "name": {
+                                "value": "GyanI",
+                                "synonyms": [
+                                    "gyanee",
+                                    "gyani"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-three-two",
+                            "name": {
+                                "value": "Elaachi",
+                                "synonyms": [
+                                    "elaaichi",
+                                    "elachi"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "projectQuestionsType",
+                    "values": [
+                        {
+                            "id": "question-one-three",
+                            "name": {
+                                "value": "What is your approach for building voice applications?",
+                                "synonyms": [
+                                    "build voice application",
+                                    "voice application building",
+                                    "build voice applications"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-two-three",
+                            "name": {
+                                "value": "What’s the typical team size?",
+                                "synonyms": [
+                                    "size of your team",
+                                    "Size of the team",
+                                    "team size"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-three-three",
+                            "name": {
+                                "value": "How does VoiceQube communicate?",
+                                "synonyms": [
+                                    "communicate clients",
+                                    "communicate to the clients",
+                                    "communicate with clients",
+                                    "communicate "
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-four-three",
+                            "name": {
+                                "value": "Can you come on-site?",
+                                "synonyms": [
+                                    "on-site",
+                                    "work on site",
+                                    "on site arrival",
+                                    "on site",
+                                    "come to our location",
+                                    "come on-site"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-five-three",
+                            "name": {
+                                "value": "What control do we have over the project?",
+                                "synonyms": [
+                                    "grip over project",
+                                    "control over project"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-six-three",
+                            "name": {
+                                "value": "What’s my role and responsibility as a client?",
+                                "synonyms": [
+                                    "my responsibility",
+                                    "my role",
+                                    "responsibility client",
+                                    "roll client",
+                                    "responsibility of client",
+                                    "roll and responsibility",
+                                    "responsibility as a client\t",
+                                    "roll as a client\t",
+                                    "roll and responsibility of a client\t",
+                                    "roll and responsibility as a client"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-seven-three",
+                            "name": {
+                                "value": "How do we keep ourselves informed about progress?",
+                                "synonyms": [
+                                    "project updates",
+                                    "project status",
+                                    "project progress"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-eight-three",
+                            "name": {
+                                "value": "Who pays for bugs?",
+                                "synonyms": [
+                                    "bugs"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-nine-three",
+                            "name": {
+                                "value": "How do you handle change requests from your customers?",
+                                "synonyms": [
+                                    "change request",
+                                    "changes in between ",
+                                    "changes during project",
+                                    "change requests"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-ten-three",
+                            "name": {
+                                "value": "Do you have experience with cloud hosting?",
+                                "synonyms": [
+                                    "cloud hosting"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-eleven-three",
+                            "name": {
+                                "value": "What’s included in the hosting packages?",
+                                "synonyms": [
+                                    "host packages",
+                                    "packages in hosting",
+                                    "hosting packages"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-twelve-three",
+                            "name": {
+                                "value": "Do you provide end-user documentation?",
+                                "synonyms": [
+                                    "documentation",
+                                    "end user documentation"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-thirteen-three",
+                            "name": {
+                                "value": "What benefits can you guarantee?",
+                                "synonyms": [
+                                    "extra benefits",
+                                    "benefits "
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-fourteen-three",
+                            "name": {
+                                "value": "Can you guarantee time-bound results?",
+                                "synonyms": [
+                                    "time bound results",
+                                    "time bound ",
+                                    "time-bound",
+                                    "guarantee time-bound results"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-fifteen-three",
+                            "name": {
+                                "value": "How do you assure solid projects?",
+                                "synonyms": [
+                                    "assure project quality",
+                                    "assure good project",
+                                    "assure project ",
+                                    "assurity project"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-sixteen-three",
+                            "name": {
+                                "value": "Why should we trust you?",
+                                "synonyms": [
+                                    "trust"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-seventeen-three",
+                            "name": {
+                                "value": "How reliable is your service?",
+                                "synonyms": [
+                                    "service",
+                                    "is your service reliable?",
+                                    "service reliability",
+                                    "service reliable"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-eighteen-three",
+                            "name": {
+                                "value": "What makes your product different?",
+                                "synonyms": [
+                                    "differ from other products",
+                                    "product unique",
+                                    "product stand out",
+                                    "product stands out",
+                                    "difference from other products",
+                                    "product different"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-nineteen-three",
+                            "name": {
+                                "value": "What is the company's experience level?",
+                                "synonyms": [
+                                    "knowledge base",
+                                    "knowledge",
+                                    "expertise",
+                                    "experiences",
+                                    "experience levels",
+                                    "experience",
+                                    "experience level"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-twenty-three",
+                            "name": {
+                                "value": "Why did you choose this industry?",
+                                "synonyms": [
+                                    "choose voice technology",
+                                    "chose this industry",
+                                    "choose this industry"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-twentyone-three",
+                            "name": {
+                                "value": "What does your company aim to achieve in the long run?",
+                                "synonyms": [
+                                    "aim to do in the long run",
+                                    "aim",
+                                    "aim for long run",
+                                    "try to achieve",
+                                    "trying to achieve",
+                                    "try achieve",
+                                    "try achieving"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "securityQuestionsType",
+                    "values": [
+                        {
+                            "id": "question-one-four",
+                            "name": {
+                                "value": "Do you guarantee the security and confidentiality of our intellectual property?",
+                                "synonyms": [
+                                    "assure security",
+                                    "assure security of intellectual property",
+                                    "security assurance",
+                                    "confidentiality of intellectual property",
+                                    "security and confidentiality of our intellectual property",
+                                    "security of intellectual property"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-two-four",
+                            "name": {
+                                "value": "How do you assure confidentiality?",
+                                "synonyms": [
+                                    "confidentiality",
+                                    "confidential details",
+                                    "confidential",
+                                    "assure confidentiality"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-three-four",
+                            "name": {
+                                "value": "What contracts and agreements do you sign?",
+                                "synonyms": [
+                                    "contracts and agreements",
+                                    "contracts and agreements signed",
+                                    "agreements signed",
+                                    "contracts signed"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-four-four",
+                            "name": {
+                                "value": "Does VoiceQube have security standards and policies?",
+                                "synonyms": [
+                                    "security policy",
+                                    "policy",
+                                    "security",
+                                    "security standards and policies",
+                                    "policies",
+                                    "security standards"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "contactQuestionsType",
+                    "values": [
+                        {
+                            "id": "question-one-five",
+                            "name": {
+                                "value": "Where are your application development centers based?",
+                                "synonyms": [
+                                    "work locations",
+                                    "offices",
+                                    "development centers"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-two-five",
+                            "name": {
+                                "value": "Whom do I contact for additional help?",
+                                "synonyms": [
+                                    "contact for additional help",
+                                    "contact details",
+                                    "contact for further details"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-three-five",
+                            "name": {
+                                "value": "May I know about your team?",
+                                "synonyms": [
+                                    "about department",
+                                    "about team"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-four-five",
+                            "name": {
+                                "value": "How can I contact your team?",
+                                "synonyms": [
+                                    "contact the department",
+                                    "contact the team",
+                                    "contact department",
+                                    "contact team"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "recruitmentQuestionsType",
+                    "values": [
+                        {
+                            "id": "question-one-six",
+                            "name": {
+                                "value": "How does VoiceQube recruit and hire its developers?",
+                                "synonyms": [
+                                    "hire",
+                                    "recruit",
+                                    "recruit employees",
+                                    "hire employees",
+                                    "hire developers",
+                                    "recruit developers",
+                                    "recruit and hire developers",
+                                    "recruit and hire its developers"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-two-six",
+                            "name": {
+                                "value": "What is the quality of people you employ?",
+                                "synonyms": [
+                                    "employees standards",
+                                    "developers standards",
+                                    "developer standards",
+                                    "employee standards",
+                                    "standards of the developers",
+                                    "standards of the employees",
+                                    "quality of employees",
+                                    "quality of the developers",
+                                    "quality of the employees"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "yesType",
+                    "values": [
+                        {
+                            "id": "YES",
+                            "name": {
+                                "value": "yeah",
+                                "synonyms": [
+                                    "of course",
+                                    "okay",
+                                    "hmm",
+                                    "sure",
+                                    "oh well",
+                                    "yes please",
+                                    "yes",
+                                    "fine"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "noType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "no",
+                                "synonyms": [
+                                    "not required",
+                                    "it's okay",
+                                    "lite",
+                                    "no thanks"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "companyType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "voiceqube's"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "your company's"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "your"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the voiceqube's"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the company's"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the company"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "you"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "your company"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "voiceqube"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

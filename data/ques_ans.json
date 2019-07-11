@@ -1,0 +1,425 @@
+[
+    {
+        "id": "default-question",
+        "gid" : "zero",
+        "questions": [
+            "do you want to know about the company?"
+        ],
+        "answer": "answer for default question..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-one",
+        "gid" : "one",
+        "questions": [
+            "do you want to know more about our company?"
+        ],
+        "answer": "It’s a startup by..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-two",
+        "gid" : "one",
+        "questions": [
+            "Do you want me to tell the advantages of Voice User Interface?"
+        ],
+        "answer": "Voice User Interface offers hands-off...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-three",
+        "gid" : "one",
+        "questions": [
+            "Do you want me to tell you the future of Voice Technology?"
+        ],
+        "answer": "Voice-enabled apps are also becoming a prevalent part of our everyday lives...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-four",
+        "gid" : "one",
+        "questions": [
+            "Do you want to know how adding voice to your business helps?"
+        ],
+        "answer": "Adding voice to business...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-five",
+        "gid" : "one",
+        "questions": [
+            "do you want to know about our business model?"
+        ],
+        "answer": "Our business model is...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-six",
+        "gid" : "one",
+        "questions": [
+            "do you want to know what services we provide?"
+        ],
+        "answer": "We provide Hospitality services...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-seven",
+        "gid" : "one",
+        "questions": [
+            "Want to know about the projects we take up?"
+        ],
+        "answer": "The kind of projects we take up are...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-eight",
+        "gid" : "one",
+        "questions": [
+            "Wonder how capable we are and what features we provide?"
+        ],
+        "answer": "We are extremely capable company...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-nine",
+        "gid" : "one",
+        "questions": [
+            "do you want to know about the technologies and languages we work with?"
+        ],
+        "answer": "Amazon Cloud Services, JS, NodeJs...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-ten",
+        "gid" : "one",
+        "questions": [
+            "Do you want to know our Client base?"
+        ],
+        "answer": "We have many clients..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-eleven",
+        "gid" : "one",
+        "questions": [
+            "Do you want to know with what industries we have worked with?"
+        ],
+        "answer": "The industries we have worked in are..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-twelve",
+        "gid" : "one",
+        "questions": [
+            "Do you want to know about Voice Clubs?"
+        ],
+        "answer": "VoiceClubs are..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-one-two",
+        "gid" : "two",
+        "questions": [
+            "Do you want to know about our projects?"
+        ],
+        "answer": "The projects we take are..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-two-two",
+        "gid" : "two",
+        "questions": [
+            "Do you want to know more about GyanI?"
+        ],
+        "answer": "GyanI is..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-three-two",
+        "gid" : "two",
+        "questions": [
+            "Do you want to know more about Elaachi?"
+        ],
+        "answer": "Elaachi is..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-one-three",
+        "gid" : "three",
+        "questions": [
+            "do you want to know how we build our voice application?"
+        ],
+        "answer": "Our team is..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-two-three",
+        "gid" : "three",
+        "questions": [
+            "do you want to know our typical team size?"
+        ],
+        "answer": "We use Alexa and Google Home..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-three-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know how we communicate in an on-going project?"
+        ],
+        "answer": "We communicate..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-four-three",
+        "gid" : "three",
+        "questions": [
+            "Wondering if we come on-site?"
+        ],
+        "answer": "Yes, we can...",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-five-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know the control a client has over the project?"
+        ],
+        "answer": "We usually ask our client..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-six-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know the role and responsibility of a client?"
+        ],
+        "answer": "We usually ask our client..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-seven-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know how we keep you informed about the project progress?"
+        ],
+        "answer": "We usually ask our client..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-eight-three",
+        "gid" : "three",
+        "questions": [
+            "Are you worried about bugs and errors?"
+        ],
+        "answer": "We pay..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-nine-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know how we handle change requests from our customers?"
+        ],
+        "answer": "We allow clients to make changes..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-ten-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know about our experience with cloud hosting?"
+        ],
+        "answer": "We have a good amount of experience..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-eleven-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know what’s included in our hosting packages?"
+        ],
+        "answer": "Hosting packages include..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-twelve-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know more about our end-user documentation?"
+        ],
+        "answer": "We provide end-user.. ",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-thirteen-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know the benefits we offer?"
+        ],
+        "answer": "We guarantee these benefits..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-fourteen-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know whether we keep our words on time bound results?"
+        ],
+        "answer": "Yes we absolutely provide time-bound results..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-fifteen-three",
+        "gid" : "three",
+        "questions": [
+            "Are you doubtful whether our service or products guarantee quality?"
+        ],
+        "answer": "Quality is assured..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-sixteen-three",
+        "gid" : "three",
+        "questions": [
+            "Worried whether to trust us?"
+        ],
+        "answer": "We are totally reliable..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-seventeen-three",
+        "gid" : "three",
+        "questions": [
+            "Are you worried about reliability our service is?"
+        ],
+        "answer": "We are totally reliable..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-eighteen-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know how distinguished our products are from other products?"
+        ],
+        "answer": "We offer so many benefits and quality results..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-nineteen-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know how experienced we are?"
+        ],
+        "answer": "We have so much experience..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-twenty-three",
+        "gid" : "three",
+        "questions": [
+            "Are you curious about why we chose this industry?"
+        ],
+        "answer": "We thought there are many problems that could be solved in the real world by    this industry..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-twentyone-three",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know our goal and objectives?"
+        ],
+        "answer": "We thought there are many problems that could be solved in the real world by this industry..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-one-four",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know about our security protocols?"
+        ],
+        "answer": "We truly do no damage to any property..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-two-four",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know how much the customer privacy and confidentiality matters to us?"
+        ],
+        "answer": "We guarantee confidentiality..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-three-four",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know about our contracts and agreements with the customer?"
+        ],
+        "answer": "The contracts and agreements are..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-four-four",
+        "gid" : "three",
+        "questions": [
+            "Are you worried about our security standards and policy?"
+        ],
+        "answer": "Our security policies include..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-one-five",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know our office details?"
+        ],
+        "answer": "Our security policies include..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-two-five",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know whom to contact for additional help?"
+        ],
+        "answer": "You can contact us for help at..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-three-five",
+        "gid" : "three",
+        "questions": [
+            "Do want to know about our team?"
+        ],
+        "answer": "Our team consists of",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-four-five",
+        "gid" : "three",
+        "questions": [
+            "Do you want to contact us?"
+        ],
+        "answer": "You can contact us at..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-one-six",
+        "gid" : "three",
+        "questions": [
+            "Do you want to know how we recruit our developers?"
+        ],
+        "answer": "We recruit our developers by..",
+        "prompt": "You can also try asking another question"
+    },
+    {
+        "id": "question-two-six",
+        "gid" : "three",
+        "questions": [
+            "Are you worried about the quality of people we employ?"
+        ],
+        "answer": "The qualifications we require are..",
+        "prompt": "You can also try asking another question"
+    }
+]
