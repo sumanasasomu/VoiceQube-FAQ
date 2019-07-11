@@ -329,7 +329,7 @@
         "questions": [
             "Do you want to know our goal and objectives?"
         ],
-        "answer": "Our primary goal is to..",
+        "answer": "Our primary goal is ",
         "prompt": "You can also try asking another question"
     },
     {
