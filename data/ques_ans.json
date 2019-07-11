@@ -158,7 +158,7 @@
         "questions": [
             "do you want to know our typical team size?"
         ],
-        "answer": "We use Alexa and Google Home..",
+        "answer": "Our typical team size is..",
         "prompt": "You can also try asking another question"
     },
     {
@@ -203,7 +203,7 @@
         "questions": [
             "Do you want to know how we keep you informed about the project progress?"
         ],
-        "answer": "We usually ask our client..",
+        "answer": "We keep the clients informed by..",
         "prompt": "You can also try asking another question"
     },
     {
@@ -230,7 +230,7 @@
         "questions": [
             "Do you want to know about our experience with cloud hosting?"
         ],
-        "answer": "We have a good amount of experience..",
+        "answer": "We have a good amount of experience in cloud hosting like..",
         "prompt": "You can also try asking another question"
     },
     {
@@ -284,7 +284,7 @@
         "questions": [
             "Worried whether to trust us?"
         ],
-        "answer": "We are totally reliable..",
+        "answer": "You can trust us...",
         "prompt": "You can also try asking another question"
     },
     {
@@ -320,7 +320,7 @@
         "questions": [
             "Are you curious about why we chose this industry?"
         ],
-        "answer": "We thought there are many problems that could be solved in the real world by    this industry..",
+        "answer": "We thought there are many problems that could be solved in the real world by this industry..",
         "prompt": "You can also try asking another question"
     },
     {
@@ -329,7 +329,7 @@
         "questions": [
             "Do you want to know our goal and objectives?"
         ],
-        "answer": "We thought there are many problems that could be solved in the real world by this industry..",
+        "answer": "Our primary goal is to..",
         "prompt": "You can also try asking another question"
     },
     {
@@ -374,7 +374,7 @@
         "questions": [
             "Do you want to know our office details?"
         ],
-        "answer": "Our security policies include..",
+        "answer": "Our office is located at..",
         "prompt": "You can also try asking another question"
     },
     {
