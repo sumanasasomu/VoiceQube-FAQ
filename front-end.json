@@ -224,6 +224,13 @@
                         }
                     ],
                     "samples": [
+                        "yes I want to know",
+                        "i think I am",
+                        "i think so",
+                        "yes let me know about that",
+                        "yes tell me about that please",
+                        "yes tell me about that",
+                        "yes i would like to know that please",
                         "{continue} please",
                         "{continue} thanks",
                         "{continue} I would like to",
@@ -863,22 +870,12 @@
                         },
                         {
                             "name": {
-                                "value": "voice qube's"
-                            }
-                        },
-                        {
-                            "name": {
                                 "value": "your company's"
                             }
                         },
                         {
                             "name": {
                                 "value": "your"
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "the voice qube's"
                             }
                         },
                         {
@@ -899,11 +896,6 @@
                         {
                             "name": {
                                 "value": "your company"
-                            }
-                        },
-                        {
-                            "name": {
-                                "value": "voice qube"
                             }
                         }
                     ]
