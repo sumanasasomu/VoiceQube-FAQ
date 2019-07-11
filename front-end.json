@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "voiceqube faq",
+            "invocationName": "voice qube f a q",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -66,7 +66,7 @@
                         "what {aboutQuestions} do you provide",
                         "What are the {aboutQuestions} by {company}",
                         "what is your company's {aboutQuestions}",
-                        "what is voiceqube's {aboutQuestions}",
+                        "what is {company} {aboutQuestions}",
                         "what is your {aboutQuestions}",
                         "why {aboutQuestions}",
                         "what is the {aboutQuestions}",
@@ -224,6 +224,10 @@
                         }
                     ],
                     "samples": [
+                        "{continue} please",
+                        "{continue} thanks",
+                        "{continue} I would like to",
+                        "{continue} {continue}",
                         "{continue}"
                     ]
                 },
@@ -247,13 +251,13 @@
                         {
                             "id": "question-one",
                             "name": {
-                                "value": "Tell me about VoiceQube",
+                                "value": "Tell me about Voice Qube",
                                 "synonyms": [
                                     "Tell me about your company",
                                     "What is your company",
-                                    "Let me know about VoiceQube",
-                                    "what is VoiceQube",
-                                    "voiceqube",
+                                    "Let me know about Voice Qube",
+                                    "what is Voice Qube",
+                                    "voice qube",
                                     "your company"
                                 ]
                             }
@@ -350,6 +354,7 @@
                             "name": {
                                 "value": "Client base",
                                 "synonyms": [
+                                    "clients",
                                     "clients base"
                                 ]
                             }
@@ -439,7 +444,7 @@
                         {
                             "id": "question-three-three",
                             "name": {
-                                "value": "How does VoiceQube communicate?",
+                                "value": "How does Voice Qube communicate?",
                                 "synonyms": [
                                     "communicate clients",
                                     "communicate to the clients",
@@ -708,7 +713,7 @@
                         {
                             "id": "question-four-four",
                             "name": {
-                                "value": "Does VoiceQube have security standards and policies?",
+                                "value": "Does Voice Qube have security standards and policies?",
                                 "synonyms": [
                                     "security policy",
                                     "policy",
@@ -776,7 +781,7 @@
                         {
                             "id": "question-one-six",
                             "name": {
-                                "value": "How does VoiceQube recruit and hire its developers?",
+                                "value": "How does Voice Qube recruit and hire its developers?",
                                 "synonyms": [
                                     "hire",
                                     "recruit",
@@ -816,6 +821,9 @@
                             "name": {
                                 "value": "yeah",
                                 "synonyms": [
+                                    "may be",
+                                    "do you",
+                                    "do they",
                                     "of course",
                                     "okay",
                                     "hmm",
@@ -850,7 +858,12 @@
                     "values": [
                         {
                             "name": {
-                                "value": "voiceqube's"
+                                "value": "yourself"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "voice qube's"
                             }
                         },
                         {
@@ -865,7 +878,7 @@
                         },
                         {
                             "name": {
-                                "value": "the voiceqube's"
+                                "value": "the voice qube's"
                             }
                         },
                         {
@@ -890,7 +903,7 @@
                         },
                         {
                             "name": {
-                                "value": "voiceqube"
+                                "value": "voice qube"
                             }
                         }
                     ]
