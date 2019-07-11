@@ -787,6 +787,11 @@
                         }
                     ],
                     "samples": [
+                        "where is {contactQuestions} based",
+                        "where are the {contactQuestions}",
+                        "where are the voice qube's {contactQuestions}",
+                        "where are your {contactQuestions}",
+                        "where is {contactQuestions} located",
                         "how do I know voice qube {contactQuestions}",
                         "how do I know your company {contactQuestions}",
                         "how do I know the company {contactQuestions}",
@@ -1569,6 +1574,13 @@
                             "name": {
                                 "value": "Where are your application development centers based?",
                                 "synonyms": [
+                                    "application development centers located",
+                                    "application development centers based",
+                                    "office located",
+                                    "location",
+                                    "located",
+                                    "work place",
+                                    "office",
                                     "work locations",
                                     "offices",
                                     "development centers"
