@@ -33,6 +33,7 @@ async function answerfunction(id,handlerInput){
   
   if(next_question_id != 'default-question'){
      mySessionAttributes.quesIDTobeAnswered = next_question_id;
+     console.log("next question to be answered is : "+ next_question_id);
      myAttributesManager.setSessionAttributes(mySessionAttributes);
      var nextques_details = await getspeechtextDetails(next_question_id);  
      var followUpQuestion = nextques_details.question;
@@ -296,7 +297,7 @@ const ContactIntentHandler = {
 const RecruitmentIntentHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-      && (handlerInput.requestEnvelope.request.intent.name === 'ContactIntent') ;
+      && (handlerInput.requestEnvelope.request.intent.name === 'RecruitmentIntent') ;
   },
   async handle(handlerInput) {
     let resolution;
@@ -335,7 +336,7 @@ const yesIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'YesIntent';
   },
   async handle(handlerInput) {
-    let resolution = handlerInput.requestEnvelope.request.intent.slots.continue.resolutions.resolutionsPerAuthority[0];
+    
       const myAttributesManager = handlerInput.attributesManager;
       var mySessionAttributes = myAttributesManager.getSessionAttributes();
       const id = mySessionAttributes.quesIDTobeAnswered;
