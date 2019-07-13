@@ -24,6 +24,11 @@
                         }
                     ],
                     "samples": [
+                        "can you tell me about your {aboutQuestions}",
+                        "can you please tell me about {aboutQuestions}",
+                        "can you tell me about {aboutQuestions}",
+                        "can you please {aboutQuestions}",
+                        "can you {aboutQuestions}",
                         "tell me {aboutQuestions}",
                         "tell me about voice qube {aboutQuestions}",
                         "tell me about your company {aboutQuestions}",
@@ -235,6 +240,7 @@
                         }
                     ],
                     "samples": [
+                        "can you tell about {productsQuestions}",
                         "Tell me about {productsQuestions} and {productsQuestions}",
                         "tell me in brief about {productsQuestions}  and {productsQuestions}",
                         "give me the details of {productsQuestions} and {productsQuestions}",
@@ -283,6 +289,8 @@
                         }
                     ],
                     "samples": [
+                        "can you please tell me about {projectQuestions}",
+                        "can you tell about {projectQuestions}",
                         "what voice qube {projectQuestions}",
                         "what your company {projectQuestions}",
                         "what the company {projectQuestions}",
@@ -653,6 +661,7 @@
                         }
                     ],
                     "samples": [
+                        "can you tell me about {securityQuestions}",
                         "do your voice qube {securityQuestions}",
                         "do your your company {securityQuestions}",
                         "do your the company {securityQuestions}",
@@ -787,6 +796,8 @@
                         }
                     ],
                     "samples": [
+                        "can you tell me {contactQuestions}",
+                        "can you please tell me about {contactQuestions}",
                         "where is {contactQuestions} based",
                         "where are the {contactQuestions}",
                         "where are the voice qube's {contactQuestions}",
@@ -913,6 +924,8 @@
                         }
                     ],
                     "samples": [
+                        "how do {recruitmentQuestions} people",
+                        "how does voiceqube {recruitmentQuestions}",
                         "how is voice qube {recruitmentQuestions}",
                         "how is your company {recruitmentQuestions}",
                         "how is the company {recruitmentQuestions}",
@@ -1111,6 +1124,7 @@
                             "name": {
                                 "value": "Tell me about Voice Qube",
                                 "synonyms": [
+                                    "tell me about your company",
                                     "about your company",
                                     "introduce your company",
                                     "introduce voice qube",
@@ -1194,6 +1208,8 @@
                             "name": {
                                 "value": "projects",
                                 "synonyms": [
+                                    "about projects",
+                                    "projects type",
                                     "project type",
                                     "project",
                                     "type of projects"
@@ -1684,6 +1700,8 @@
                             "name": {
                                 "value": "How does Voice Qube recruit and hire its developers?",
                                 "synonyms": [
+                                    "recruitment",
+                                    "recruitment procedure",
                                     "hire",
                                     "recruit",
                                     "recruit employees",
@@ -1748,6 +1766,8 @@
                             "name": {
                                 "value": "no",
                                 "synonyms": [
+                                    "nope",
+                                    "nah",
                                     "not required",
                                     "it's okay",
                                     "lite",
